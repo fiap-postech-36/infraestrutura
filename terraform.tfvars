@@ -1,0 +1,10 @@
+prefix          = "fiap"
+cluster_name    = "fiap-restaurante-cluster"
+retentions_days = 30
+desired_size    = 1
+max_size        = 1
+min_size        = 1
+db_name         = "restaurant"
+db_user         = "postgres"
+db_password     = "%pr0jet0_fiap3"
+kubeconfig      = "kubeconfig"
