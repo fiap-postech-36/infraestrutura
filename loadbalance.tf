@@ -1,4 +1,5 @@
-resource "kubernetes_service" "LoadBalancer" {
+
+resource "kubernetes_service" "load-balancer-restaurant-api" {
   metadata {
     name = "load-balancer-restaurant-api"
   }
@@ -12,4 +13,5 @@ resource "kubernetes_service" "LoadBalancer" {
     }
     type = "LoadBalancer"
   }
+  depends_on = [aws_eks_cluster.cluster, aws_eks_node_group.node-1, aws_db_instance.postgres]
 }

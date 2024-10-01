@@ -39,7 +39,18 @@ output "rds_endpoint" {
 }
 
 #output "api_gateway_url" {
-  #description = "URL completa do API Gateway com o caminho da aplicação"
-  #value       = "${aws_apigatewayv2_api.app_http_api.api_endpoint}/restaurant/{proxy+}"
+#description = "URL completa do API Gateway com o caminho da aplicação"
+#value       = "${aws_apigatewayv2_api.app_http_api.api_endpoint}/restaurant/{proxy+}"
 #}
+
+output "api_gateway_dns" {
+  description = "O DNS do API Gateway"
+  value       = aws_api_gateway_deployment.deployment.invoke_url
+}
+
+output "client_id" {
+  value = aws_cognito_user_pool_client.user_pool_client.id
+}
+
+
 

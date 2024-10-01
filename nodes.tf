@@ -49,4 +49,3 @@ resource "aws_eks_node_group" "node-1" {
     aws_iam_role_policy_attachment.node-AmazonEKSWorkerNodePolicy,
   ]
 }
-
