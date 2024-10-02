@@ -60,18 +60,17 @@ Para instalar o Terraform, siga os passos:
 ## Demonstração do funcionamento da aplicação
 Segue link do vídeo que explica os seguintes pontos:
 
-Terraform criados para a estrutura que é montada
-Processo em cada um dos repositório com github actions
-Estrutura de login
-Estrutura Functions
-Estrutura Database
-Estrutura aplicação
+Demostração da infra com Terraform criada:
 
-Link: https://xxxxxxxxxxxxxxxxxxxxxxx
+Demostração da funcionalidade da API:
 
+Processo de compilação e deploy com github actions:
+https://www.youtube.com/watch?v=CXNsAYA5QVQ
+
+Explicação do desenho:
+https://www.youtube.com/watch?v=J_WlIzWAENs
 
 ## Autores
-
 - Leandro Ibraim: [@leandroibraim](https://github.com/leandroibraim)
 - Jorge Bazara Jr [@jjbazagajr](https://github.com/jjbazagajr)
 - Ulysses de Castro [@ulysses903]( https://github.com/ulysses903)
